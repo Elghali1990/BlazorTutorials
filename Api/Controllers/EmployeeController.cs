@@ -69,8 +69,13 @@ namespace Api.Controllers
             {
                 return NotFound("Employee not found");
             }
+            emp.Name = employee.Name;
+            emp.Designation = employee.Designation;
+            emp.Location = employee.Location;
+            emp.Email = employee.Email;
+            emp.PhoneNumber = employee.PhoneNumber;
             employeeDb.UpdateEmployee(emp);
-            return Ok(employee);
+            return Ok(emp);
         }
 
     }

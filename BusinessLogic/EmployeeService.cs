@@ -31,7 +31,7 @@ namespace BusinessLogic
 
         public Employee GetEmployeeById(int id)
         {
-            return _context.Employees.FirstOrDefault(e => e.Equals(id));
+            return _context.Employees.FirstOrDefault(e => e.Id ==id);
         }
 
         public void UpdateEmployee(Employee employee)
