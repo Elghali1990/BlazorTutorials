@@ -1,0 +1,17 @@
+D:\Asp.net core projects\BlazorTutorials\BusinessLogic\bin\Debug\net6.0\BusinessLogic.deps.json
+D:\Asp.net core projects\BlazorTutorials\BusinessLogic\bin\Debug\net6.0\BusinessLogic.runtimeconfig.json
+D:\Asp.net core projects\BlazorTutorials\BusinessLogic\bin\Debug\net6.0\BusinessLogic.dll
+D:\Asp.net core projects\BlazorTutorials\BusinessLogic\bin\Debug\net6.0\BusinessLogic.pdb
+D:\Asp.net core projects\BlazorTutorials\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.AssemblyReference.cache
+D:\Asp.net core projects\BlazorTutorials\BusinessLogic\obj\Debug\net6.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\Asp.net core projects\BlazorTutorials\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfoInputs.cache
+D:\Asp.net core projects\BlazorTutorials\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfo.cs
+D:\Asp.net core projects\BlazorTutorials\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CoreCompileInputs.cache
+D:\Asp.net core projects\BlazorTutorials\BusinessLogic\obj\Debug\net6.0\BusinessLogic.dll
+D:\Asp.net core projects\BlazorTutorials\BusinessLogic\obj\Debug\net6.0\refint\BusinessLogic.dll
+D:\Asp.net core projects\BlazorTutorials\BusinessLogic\obj\Debug\net6.0\BusinessLogic.pdb
+D:\Asp.net core projects\BlazorTutorials\BusinessLogic\obj\Debug\net6.0\BusinessLogic.genruntimeconfig.cache
+D:\Asp.net core projects\BlazorTutorials\BusinessLogic\obj\Debug\net6.0\ref\BusinessLogic.dll
+D:\Asp.net core projects\BlazorTutorials\BusinessLogic\bin\Debug\net6.0\Infrastructer.dll
+D:\Asp.net core projects\BlazorTutorials\BusinessLogic\bin\Debug\net6.0\Infrastructer.pdb
+D:\Asp.net core projects\BlazorTutorials\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CopyComplete

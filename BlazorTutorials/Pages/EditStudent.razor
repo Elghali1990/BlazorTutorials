@@ -1,0 +1,38 @@
+﻿@page "/edit-student"
+
+
+
+<h2>Student information</h2>
+<hr />
+<EditForm Model="@student" OnValidSubmit="@save">
+    <DataAnnotationsValidator/>
+    <ValidationSummary/>
+    <div class="mb-2">
+        <label  class="form-label">Name</label>
+        <InputText  class="form-control w-50" @bind-Value="student.Name" />
+        <ValidationMessage For="@(()=>student.Name)"></ValidationMessage>
+    </div>
+
+    <div class="mb-2">
+        <label class="form-label">Roll</label>
+        <InputText @bind-Value="student.Roll" class="form-control w-50" />
+        <ValidationMessage For="@(()=>student.Roll)"></ValidationMessage>
+    </div>
+    <div>
+        <button type="submit" class="btn btn-primary btn-sm mr-2">Save</button>
+        <button type="button" class="btn btn-sm btn-danger">Cancel</button>
+    </div>
+</EditForm>
+
+
+
+
+@code {
+    public StudentVM student { get; set; } = new StudentVM();
+    private void save()
+    {
+        StudentService service = new();
+        service.save(student);
+        student = new();
+    }
+}

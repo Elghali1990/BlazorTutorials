@@ -1,0 +1,34 @@
+﻿@page "/"
+@inject NavigationManager navigate
+@inject IJSRuntime jsRuntime
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+<div class="mt-2">
+    <a href="student" class="btn btn-primary btn-sm mr-1">Stdent Page</a>
+    <a href="student-info" class="btn btn-success btn-sm">Stdent info</a>
+    <a href="student/34" class="btn btn-warning btn-sm">Stdent id</a>
+    <button  class="btn btn-danger btn-sm mr-1" @onclick="redirectToStudentPage">Stdent Page</button>
+</div>
+
+<div class="mt-4">
+    <button class="btn btn-success btn-sm" @onclick=callJsMethode>Call javascript methode</button>
+</div>
+@code{
+
+    private void redirectToStudentPage(){
+
+        navigate.NavigateTo("student");
+    }
+
+    private async Task callJsMethode(){
+
+        await jsRuntime.InvokeVoidAsync("showStudemtInformation");
+    }
+}

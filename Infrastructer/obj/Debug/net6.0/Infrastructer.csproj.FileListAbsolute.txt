@@ -1,0 +1,12 @@
+D:\Asp.net core projects\BlazorTutorials\Infrastructer\bin\Debug\net6.0\Infrastructer.deps.json
+D:\Asp.net core projects\BlazorTutorials\Infrastructer\bin\Debug\net6.0\Infrastructer.dll
+D:\Asp.net core projects\BlazorTutorials\Infrastructer\bin\Debug\net6.0\Infrastructer.pdb
+D:\Asp.net core projects\BlazorTutorials\Infrastructer\obj\Debug\net6.0\Infrastructer.csproj.AssemblyReference.cache
+D:\Asp.net core projects\BlazorTutorials\Infrastructer\obj\Debug\net6.0\Infrastructer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Asp.net core projects\BlazorTutorials\Infrastructer\obj\Debug\net6.0\Infrastructer.AssemblyInfoInputs.cache
+D:\Asp.net core projects\BlazorTutorials\Infrastructer\obj\Debug\net6.0\Infrastructer.AssemblyInfo.cs
+D:\Asp.net core projects\BlazorTutorials\Infrastructer\obj\Debug\net6.0\Infrastructer.csproj.CoreCompileInputs.cache
+D:\Asp.net core projects\BlazorTutorials\Infrastructer\obj\Debug\net6.0\Infrastructer.dll
+D:\Asp.net core projects\BlazorTutorials\Infrastructer\obj\Debug\net6.0\refint\Infrastructer.dll
+D:\Asp.net core projects\BlazorTutorials\Infrastructer\obj\Debug\net6.0\Infrastructer.pdb
+D:\Asp.net core projects\BlazorTutorials\Infrastructer\obj\Debug\net6.0\ref\Infrastructer.dll

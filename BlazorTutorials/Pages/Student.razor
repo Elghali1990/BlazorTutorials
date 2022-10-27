@@ -1,0 +1,13 @@
+﻿@page "/student"
+@page "/student-info"
+@page "/student/{id:int}"
+<h3>Student</h3>
+
+@if (id !=null)
+{
+    <h1>Student id is  :@id</h1>
+}
+@code {
+    [Parameter]
+    public int ? id { get; set; }
+}
