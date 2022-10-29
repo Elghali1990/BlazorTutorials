@@ -18,7 +18,7 @@ namespace Api.Controllers
 
         [HttpGet]
         [Route("getAllEmployees")]
-        public IActionResult getAll(Employee employee)
+        public IActionResult getAll()
         {
             return Ok(employeeDb.GetAllEmployees());
         }

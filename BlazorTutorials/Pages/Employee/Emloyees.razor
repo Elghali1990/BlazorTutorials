@@ -1,17 +1,55 @@
 ﻿@page "/employees"
-
+@inject IEmployee service
 
 <div class="card mt-3">
     <div class="card-header">
         Featured
     </div>
     <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+
+        @if(empList.Count()>0){
+            <table class="table table-bordered">
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Designation</th>
+                    <th>Location</th>
+                    <th>Email</th>
+                    <th>Phone number</th>
+                    <th></th>
+                </tr>
+                @foreach (var employee in empList)
+                {
+                <tr>
+                    <td>@employee.Id</td>
+                    <td>@employee.Name</td>
+                    <td>@employee.Designation</td>
+                    <td>@employee.Location</td>
+                    <td>@employee.Email</td>
+                    <td>@employee.PhoneNumber</td>
+                    <td>
+                        <a href="" class="btn btn-success btn-sm">Edit</a>
+                        <button class="btn btn-danger btn-sm">Delete</button>
+                    </td>
+                </tr>
+                }
+            </table>
+
+
+        }else{
+            <div class="alert alert-danger">
+                no data
+            </div>
+        }
+        
+      
     </div>
 </div>
 
 @code {
-
+    public IEnumerable<Employee> empList;
+    protected override async Task OnInitializedAsync()
+    {
+        empList = await service.GetAllEmployees(); 
+    }
 }

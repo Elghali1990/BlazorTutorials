@@ -817,3 +817,11 @@ D:\Asp.net core projects\BlazorTutorials\BlazorTutorials\obj\Debug\net6.0\Blazor
 D:\Asp.net core projects\BlazorTutorials\BlazorTutorials\obj\Debug\net6.0\refint\BlazorTutorials.dll
 D:\Asp.net core projects\BlazorTutorials\BlazorTutorials\obj\Debug\net6.0\BlazorTutorials.pdb
 D:\Asp.net core projects\BlazorTutorials\BlazorTutorials\obj\Debug\net6.0\ref\BlazorTutorials.dll
+D:\Asp.net core projects\BlazorTutorials\BlazorTutorials\bin\Debug\net6.0\wwwroot\_framework\Infrastructer.dll
+D:\Asp.net core projects\BlazorTutorials\BlazorTutorials\bin\Debug\net6.0\wwwroot\_framework\Infrastructer.pdb
+D:\Asp.net core projects\BlazorTutorials\BlazorTutorials\bin\Debug\net6.0\wwwroot\_framework\Infrastructer.pdb.gz
+D:\Asp.net core projects\BlazorTutorials\BlazorTutorials\bin\Debug\net6.0\wwwroot\_framework\Infrastructer.dll.gz
+D:\Asp.net core projects\BlazorTutorials\BlazorTutorials\bin\Debug\net6.0\Infrastructer.dll
+D:\Asp.net core projects\BlazorTutorials\BlazorTutorials\bin\Debug\net6.0\Infrastructer.pdb
+D:\Asp.net core projects\BlazorTutorials\BlazorTutorials\obj\Debug\net6.0\build-gz\MYPRjKvS.gz
+D:\Asp.net core projects\BlazorTutorials\BlazorTutorials\obj\Debug\net6.0\build-gz\50m3rxo7.gz

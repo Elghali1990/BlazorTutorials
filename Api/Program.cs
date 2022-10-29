@@ -13,6 +13,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("db"),
     b=>b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
 builder.Services.AddTransient<IEmployee,EmployeeService>();
+builder.Services.AddCors();
 var app = builder.Build();
 
 
@@ -26,7 +27,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
-
+app.UseCors(options => options.WithOrigins("*").AllowAnyHeader().AllowAnyMethod());
 app.MapControllers();
 
 app.Run();

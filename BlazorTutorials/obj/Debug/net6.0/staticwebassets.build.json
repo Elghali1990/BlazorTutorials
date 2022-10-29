@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ir7a+UaSwOW/7iwOk/fF6JBPFNnnSqYUKanO0VcHcfI=",
+  "Hash": "mUcNkjFrqME9VpI1PVVdf7FWLA27t/mnmlgsuADzmSE=",
   "Source": "BlazorTutorials",
   "BasePath": "/",
   "Mode": "Root",
@@ -236,6 +236,40 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\6.0.10\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
+    },
+    {
+      "Identity": "D:\\Asp.net core projects\\BlazorTutorials\\BlazorTutorials\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Infrastructer.dll",
+      "SourceId": "BlazorTutorials",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Asp.net core projects\\BlazorTutorials\\BlazorTutorials\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Infrastructer.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Asp.net core projects\\BlazorTutorials\\Infrastructer\\bin\\Debug\\net6.0\\Infrastructer.dll"
+    },
+    {
+      "Identity": "D:\\Asp.net core projects\\BlazorTutorials\\BlazorTutorials\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Infrastructer.pdb",
+      "SourceId": "BlazorTutorials",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Asp.net core projects\\BlazorTutorials\\BlazorTutorials\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Infrastructer.pdb",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "symbol",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Asp.net core projects\\BlazorTutorials\\Infrastructer\\bin\\Debug\\net6.0\\Infrastructer.pdb"
     },
     {
       "Identity": "D:\\Asp.net core projects\\BlazorTutorials\\BlazorTutorials\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
@@ -3740,6 +3774,23 @@
       "OriginalItemSpec": "D:\\Asp.net core projects\\BlazorTutorials\\BlazorTutorials\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.InteropServices.RuntimeInformation.dll"
     },
     {
+      "Identity": "D:\\Asp.net core projects\\BlazorTutorials\\BlazorTutorials\\obj\\Debug\\net6.0\\build-gz\\50m3rxo7.gz",
+      "SourceId": "BlazorTutorials",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Asp.net core projects\\BlazorTutorials\\BlazorTutorials\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Infrastructer.pdb.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\Asp.net core projects\\BlazorTutorials\\BlazorTutorials\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Infrastructer.pdb",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Asp.net core projects\\BlazorTutorials\\BlazorTutorials\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Infrastructer.pdb"
+    },
+    {
       "Identity": "D:\\Asp.net core projects\\BlazorTutorials\\BlazorTutorials\\obj\\Debug\\net6.0\\build-gz\\5LjA93do.gz",
       "SourceId": "BlazorTutorials",
       "SourceType": "Computed",
@@ -5336,6 +5387,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Asp.net core projects\\BlazorTutorials\\BlazorTutorials\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Collections.Concurrent.dll"
+    },
+    {
+      "Identity": "D:\\Asp.net core projects\\BlazorTutorials\\BlazorTutorials\\obj\\Debug\\net6.0\\build-gz\\MYPRjKvS.gz",
+      "SourceId": "BlazorTutorials",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Asp.net core projects\\BlazorTutorials\\BlazorTutorials\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Infrastructer.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\Asp.net core projects\\BlazorTutorials\\BlazorTutorials\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Infrastructer.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Asp.net core projects\\BlazorTutorials\\BlazorTutorials\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Infrastructer.dll"
     },
     {
       "Identity": "D:\\Asp.net core projects\\BlazorTutorials\\BlazorTutorials\\obj\\Debug\\net6.0\\build-gz\\Na8iavrK.gz",

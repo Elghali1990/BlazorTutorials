@@ -517,6 +517,16 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "Infrastructer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Infrastructer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrastructer.dll": {}
+        }
       }
     },
     "net6.0/browser-wasm": {
@@ -1028,6 +1038,16 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Infrastructer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Infrastructer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrastructer.dll": {}
         }
       }
     }
@@ -1809,11 +1829,17 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Infrastructer/1.0.0": {
+      "type": "project",
+      "path": "../Infrastructer/Infrastructer.csproj",
+      "msbuildProject": "../Infrastructer/Infrastructer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "BlazorInputFile >= 0.2.0",
+      "Infrastructer >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 6.0.10",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.10"
     ]
@@ -1850,7 +1876,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Asp.net core projects\\BlazorTutorials\\Infrastructer\\Infrastructer.csproj": {
+              "projectPath": "D:\\Asp.net core projects\\BlazorTutorials\\Infrastructer\\Infrastructer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

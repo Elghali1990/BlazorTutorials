@@ -6,7 +6,7 @@ namespace Infrastructer.Interfaces
 {
     public interface IEmployee
     {
-        IEnumerable GetAllEmployees();
+        List<Employee> GetAllEmployees();
         void AddEmployee(Employee employee);
         void UpdateEmployee(Employee employee);
         Employee GetEmployeeById(int id);

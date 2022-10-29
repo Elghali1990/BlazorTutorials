@@ -24,7 +24,7 @@ namespace BusinessLogic
             _context.SaveChanges();
         }
 
-        public IEnumerable GetAllEmployees()
+        public List<Employee> GetAllEmployees()
         {
             return _context.Employees.ToList();
         }
